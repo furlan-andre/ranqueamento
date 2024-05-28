@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.UnitTests\\Ranqueamento.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\Ranqueamento.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\Ranqueamento.API.csproj",
+        "projectName": "Ranqueamento.API",
+        "projectPath": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\Ranqueamento.API.csproj",
+        "packagesPath": "C:\\Users\\andre.vilhalba\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andre.vilhalba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Projetos DN\\package generics": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SIG-DN/SIG/_packaging/SigPackage/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.UnitTests\\Ranqueamento.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.UnitTests\\Ranqueamento.UnitTests.csproj",
+        "projectName": "Ranqueamento.UnitTests",
+        "projectPath": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.UnitTests\\Ranqueamento.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\andre.vilhalba\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\andre.vilhalba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Projetos DN\\package generics": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SIG-DN/SIG/_packaging/SigPackage/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\Ranqueamento.API.csproj": {
+                "projectPath": "C:\\Projeto Pontos\\ultimaSemMigrations\\ProjetoRanqueamento\\Ranqueamento.API\\Ranqueamento.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
